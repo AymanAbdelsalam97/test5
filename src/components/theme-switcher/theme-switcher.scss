@@ -1,0 +1,74 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+}
+.theme-options {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  div {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    &.active {
+      opacity: 1;
+    }
+  }
+  #theme-white {
+    background-color: #fff;
+  }
+  #theme-blue {
+    background-color: navy;
+  }
+  #theme-orange {
+    background-color: orange;
+  }
+  #theme-purple {
+    background-color: purple;
+  }
+  #theme-green {
+    background-color: #28a745;
+  }
+  #theme-red {
+    background-color: #dc3545;
+  }
+  #theme-black {
+    background-color: black;
+  }
+}
+
+.App.theme-blue {
+  background-color: #0000ff;
+}
+.App.theme-orange {
+  background-color: orange;
+}
+.App.theme-purple {
+  background-color: purple;
+}
+.App.theme-green {
+  background-color: green;
+}
+.App.theme-red {
+  background-color: red;
+}
+
+.App.theme-black {
+  background-color: black;
+}
